@@ -154,8 +154,8 @@ export function getResults(request) {
         _id: 'RELATED_QUERIES',
       },
       'Trending stories': {
-        path: '/trends/api/stories/latest'
-      }
+        path: '/trends/api/stories/latest',
+      },
     };
 
     const options = {
