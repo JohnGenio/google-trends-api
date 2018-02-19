@@ -30,5 +30,10 @@ describe('index', () => {
       expect(google.relatedTopics).to.exist;
       expect(google.relatedTopics).to.be.a('function');
     });
+
+    it('trendingStories', () => {
+      expect(google.trendingStories).to.exist;
+      expect(google.trendingStories).to.be.a('function');
+    });
   });
 });

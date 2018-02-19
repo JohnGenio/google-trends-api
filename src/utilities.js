@@ -153,6 +153,9 @@ export function getResults(request) {
         path: '/trends/api/widgetdata/relatedsearches',
         _id: 'RELATED_QUERIES',
       },
+      'Trending stories': {
+        path: '/trends/api/stories/latest'
+      }
     };
 
     const options = {
