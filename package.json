@@ -5,7 +5,6 @@
   "main": "lib/google-trends-api.min.js",
   "scripts": {
     "build": "webpack --mode=build",
-    "install": "webpack --mode=build",
     "dev": "webpack --progress --colors --watch --mode=dev",
     "start": "npm run dev",
     "test": "mocha --compilers js:babel-core/register --colors ./test/*.spec.js",
