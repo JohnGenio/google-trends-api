@@ -4,7 +4,7 @@
   "description": "an API layer on top of google trends",
   "main": "lib/google-trends-api.min.js",
   "scripts": {
-    "install": "webpack --env.mode=build",
+    "build": "webpack --mode=build",
     "dev": "webpack --progress --colors --watch --mode=dev",
     "start": "npm run dev",
     "test": "mocha --compilers js:babel-core/register --colors ./test/*.spec.js",
